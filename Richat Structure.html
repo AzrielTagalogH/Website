@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Richat Structure</title>
+  <link rel="stylesheet" href="CSS/styles3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="Javascript/script.js" defer></script>
+  <link rel="icon" href="Images/Eye.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1><span>👁️</span> Richat Structure</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="header-tagline">Explore the geological wonder of the Eye of the Sahara!</p>
+  </header>
+
+  <main class="container">
+    <h2>Welcome to the Richat Structure</h2>
+    <img src="Images/Richat Structure.jpg" alt="Richat Structure" class="featured-image">
+    <p>
+      The Richat Structure, also called the "Eye of the Sahara," is a prominent circular formation located in the Sahara Desert of Mauritania. Spanning over 40 kilometers in diameter, this natural wonder is a unique geological phenomenon that can be seen clearly from space.
+    </p>
+    <h3>What Makes It Unique?</h3>
+    <ul>
+      <li>A striking circular shape believed to be caused by erosion of layered sedimentary rock.</li>
+      <li>Once thought to be an impact crater but later identified as a geologic dome.</li>
+      <li>Visible from space, making it a fascinating feature for astronauts and researchers.</li>
+    </ul>
+    <h3>Visitor Information</h3>
+    <p>
+      <strong>Location:</strong> Sahara Desert, near Ouadane, Mauritania. <br>
+      <strong>Best Time to Visit:</strong> November to February, for cooler desert temperatures. <br>
+      <strong>Tips:</strong> Access is challenging; plan with local guides for a safe and informative visit.
+    </p>
+    <h2>More of Richat Structure</h2>
+    <section class="image-gallery">
+      <img src="Images/Richat1.jpg" alt="Richat1" onclick="openLightbox(this)">
+      <img src="Images/Richat2.jpeg" alt="Richat2" onclick="openLightbox(this)">
+      <img src="Images/Richat3.jpg" alt="Richat3" onclick="openLightbox(this)">
+      <img src="Images/Richat4.jpeg" alt="Richat4" onclick="openLightbox(this)">
+      <img src="Images/Richat5.jpg" alt="Richat5" onclick="openLightbox(this)">
+      <img src="Images/Richat6.jpg" alt="Richat6" onclick="openLightbox(this)">
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close" onclick="closeLightbox()">&times;</span>
+      <img class="lightbox-content" id="lightbox-image" alt="Enlarged View">
+      <button class="nav-button prev" onclick="navigateLightbox(-1)">❮</button>
+      <button class="nav-button next" onclick="navigateLightbox(1)">❯</button>
+    </div>
+
+    <section class="explore-buttons">
+      <h3>Explore Other Natural Wonders</h3>
+      <div class="button-container">
+        <a href="Antelope Canyon.html" class="explore-button">Antelope Canyon</a>
+        <a href="Salar de uyuni.html" class="explore-button">Salar de Uyuni</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>Follow Us:</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ryosous1/" target="_blank">
+          <img src="Images/Insta.png" alt="Instagram">
+        </a>
+      </div>
+      <p>&copy; 2024 Travel Blog | All rights reserved</p>
+    </div>
+  </footer>
+
+</body>
+</html>

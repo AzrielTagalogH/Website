@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antelope Canyon</title>
+  <link rel="stylesheet" href="CSS/styles2.css">
+  <script src="Javascript/script.js" defer></script>
+  <link rel="icon" href="Images/Mountain.ico" type="image/x-icon">
+
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1><span>🌄</span> Antelope Canyon</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="header-tagline">Discover the beauty of Arizona's stunning slot canyon!</p>
+  </header>
+
+  <main class="container">
+    <h2>Explore the Magic of Antelope Canyon</h2>
+    <img src="Images/Antelope Canyon.jpg" alt="Antelope Canyon" class="featured-image">
+    <p>
+      Antelope Canyon is one of nature’s most captivating creations. Located in the Navajo Nation near Page, Arizona, this incredible slot canyon is renowned for its unique sandstone formations and breathtaking light beams.
+    </p>
+
+    <section>
+      <h3>What Makes It Special</h3>
+      <p>
+        The canyon’s wave-like structures and vivid colors have been carved over millions of years by water and wind erosion. Visitors are often amazed by the interplay of light and shadow, which creates an otherworldly atmosphere.
+      </p>
+      <ul>
+        <li>Experience the canyon through a guided tour.</li>
+        <li>Capture stunning photographs of natural light beams.</li>
+        <li>Marvel at the intricate textures and shapes of sandstone walls.</li>
+      </ul>
+    </section>
+      <h2>More of Antelope Canyon</h2>
+    <section class="image-gallery">
+      <img src="Images/Antelope1.jpg" alt="Antelope1" onclick="openLightbox(this)">
+      <img src="Images/Antelope2.jpg" alt="Antelope2" onclick="openLightbox(this)">
+      <img src="Images/Antelope3.jpg" alt="Antelope3" onclick="openLightbox(this)">
+      <img src="Images/Antelope4.jpg" alt="Antelope4" onclick="openLightbox(this)">
+      <img src="Images/Antelope5.jpg" alt="Antelope5" onclick="openLightbox(this)">
+      <img src="Images/Antelope6.jpg" alt="Antelope6" onclick="openLightbox(this)">
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close" onclick="closeLightbox()">&times;</span>
+      <img class="lightbox-content" id="lightbox-image" alt="Enlarged View">
+      <button class="nav-button prev" onclick="navigateLightbox(-1)">❮</button>
+      <button class="nav-button next" onclick="navigateLightbox(1)">❯</button>
+    </div>
+
+    <section class="explore-buttons">
+      <h3>Explore Other Natural Wonders</h3>
+      <div class="button-container">
+        <a href="Richat Structure.html" class="explore-button">Richat Structure</a>
+        <a href="Salar de uyuni.html" class="explore-button">Salar de Uyuni</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>Follow Us:</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ryosous1/" target="_blank">
+          <img src="Images/Insta.png" alt="Instagram">
+        </a>
+      </div>
+      <p>&copy; 2024 Travel Blog | All rights reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
